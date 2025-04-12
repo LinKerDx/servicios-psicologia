@@ -12,6 +12,12 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-
-  adapter: vercel()
+  build: {
+    inlineStylesheets: 'always',
+  },
+  adapter: vercel({
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
 });
