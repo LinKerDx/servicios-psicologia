@@ -28,7 +28,7 @@
 			"dest": "_render"
 		},
 		{
-			"src": "^/ServicesPsy/([^/]+?)/?$",
+			"src": "^/servicespsy/([^/]+?)/?$",
 			"dest": "_render"
 		},
 		{

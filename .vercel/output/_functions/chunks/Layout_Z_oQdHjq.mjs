@@ -1,5 +1,5 @@
 import { c as createComponent, m as maybeRenderHead, a as renderTemplate, b as createAstro, s as spreadAttributes, r as renderComponent, d as addAttribute, g as renderScript, h as renderHead, i as renderSlot } from './astro/server_CPBrnih7.mjs';
-/* empty css                        */
+/* empty css                         */
 import 'clsx';
 
 const $$Contacto = createComponent(($$result, $$props, $$slots) => {

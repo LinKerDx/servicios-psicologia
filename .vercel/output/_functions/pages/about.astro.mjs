@@ -1,5 +1,5 @@
 import { c as createComponent, r as renderComponent, a as renderTemplate, m as maybeRenderHead } from '../chunks/astro/server_CPBrnih7.mjs';
-import { $ as $$Layout } from '../chunks/Layout_B6QTDASA.mjs';
+import { $ as $$Layout } from '../chunks/Layout_Z_oQdHjq.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$About = createComponent(($$result, $$props, $$slots) => {

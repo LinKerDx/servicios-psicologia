@@ -2,7 +2,7 @@ import { c as createComponent, m as maybeRenderHead, a as renderTemplate, b as c
 import 'clsx';
 import { s as servicios } from '../chunks/servicios_B8panDt-.mjs';
 /* empty css                                 */
-import { $ as $$Layout } from '../chunks/Layout_B6QTDASA.mjs';
+import { $ as $$Layout } from '../chunks/Layout_Z_oQdHjq.mjs';
 export { renderers } from '../renderers.mjs';
 
 const $$Hero = createComponent(($$result, $$props, $$slots) => {
@@ -16,7 +16,7 @@ const $$ServiceCard = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$ServiceCard;
   const { id, nombre, img, modalidad, duracion, precio } = Astro2.props;
-  return renderTemplate`${maybeRenderHead()}<a${addAttribute(`/ServicesPsy/${id}`, "href")}${addAttribute(id, "data-id")}> <article class="Card-service flex flex-cols gap-1 md:gap-3 rounded-lg overflow-hidden border w-[270px] h-[216px] md:w-[380px] md:min-h-[305px] hover:bg-[#a0d8d7] hover:text-black"> <img${addAttribute(`card-image-${id}`, "data-id")} fetchpriority="low"${addAttribute(img, "src")}${addAttribute(`imagen del servicio de ${nombre}`, "alt")} class="w-[150px] md:w-[200px] object-cover" decoding="async"${addAttribute(renderTransition($$result, "kypyzgfb", "", `image-${id}`), "data-astro-transition-scope")}> <div class="grid content-between gap-2 md:gap-4 text-[10px] md:text-sm text-center p-1"> <div class="flex flex-col gap-2 md:gap-4 text-[10px] md:text-sm text-center p-1"> <h2 class="text-[14px] md:text-2xl font-bold">${nombre}</h2> <p>Duración: ${duracion}</p> <p>Costo: $${precio} USD</p> <div class="flex flex-col md:flex-rows gap-1"> ${modalidad.map((modalidad2) => renderTemplate`<p class="badges rounded-lg border-2 border-black bg-[#0DC143]"> ${modalidad2} </p>`)} </div> </div> <button>Presiona aquí </button> </div> </article> </a>`;
+  return renderTemplate`${maybeRenderHead()}<a${addAttribute(`/servicespsy/${id}`, "href")}${addAttribute(id, "data-id")}> <article class="Card-service flex flex-cols gap-1 md:gap-3 rounded-lg overflow-hidden border w-[270px] h-[216px] md:w-[380px] md:min-h-[305px] hover:bg-[#a0d8d7] hover:text-black"> <img${addAttribute(`card-image-${id}`, "data-id")} fetchpriority="low"${addAttribute(img, "src")}${addAttribute(`imagen del servicio de ${nombre}`, "alt")} class="w-[150px] md:w-[200px] object-cover" decoding="async"${addAttribute(renderTransition($$result, "kypyzgfb", "", `image-${id}`), "data-astro-transition-scope")}> <div class="grid content-between gap-2 md:gap-4 text-[10px] md:text-sm text-center p-1"> <div class="flex flex-col gap-2 md:gap-4 text-[10px] md:text-sm text-center p-1"> <h2 class="text-[14px] md:text-2xl font-bold">${nombre}</h2> <p>Duración: ${duracion}</p> <p>Costo: $${precio} USD</p> <div class="flex flex-col md:flex-rows gap-1"> ${modalidad.map((modalidad2) => renderTemplate`<p class="badges rounded-lg border-2 border-black bg-[#0DC143]"> ${modalidad2} </p>`)} </div> </div> <button>Presiona aquí </button> </div> </article> </a>`;
 }, "C:/Users/omar_/Documents/GitHub/Astro-Proyectos/servicios-psicologia/src/components/ServiceCard.astro", "self");
 
 const $$Servicios = createComponent(($$result, $$props, $$slots) => {

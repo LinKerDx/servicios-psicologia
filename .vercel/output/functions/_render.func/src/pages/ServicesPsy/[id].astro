@@ -1,12 +1,13 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import servicios from "../../mocks/servicios.json";
+import servicios from "../../data/servicios.json";
 
 const { id } = Astro.params;
 const servicio = servicios.serviciosPsicologia.find(
   (servicio) => servicio.id === id
 );
 if (!servicio) return Astro.redirect("/404");
+
 ---
 
 <Layout>
